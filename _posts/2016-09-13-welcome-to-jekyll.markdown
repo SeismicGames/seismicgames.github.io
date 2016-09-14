@@ -1,25 +1,50 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Setting up AWS for Game Development, Part 1"
 date:   2016-09-13 11:31:54 -0700
-categories: jekyll update
+categories: aws lambda ec2
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+So, the first thing you will need to do is create an AWS account. There are plenty of tutorials on how to do that, so I won't go into that here. 
 
-Jekyll also offers powerful support for code snippets:
+Once your account is created, you are going to want to set up a couple of key things before you start:
+1. IAM users with credentials
+2. Custom EC2 launch image (called AMIs) 
+3. ASG scaling handler
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+One and two are already covered on the internet as well. But for three, you are left on your own. Why do you need this? Well, if you are a (very) small game studio 
+like we are, you don't have the bandwidth to set up every EC2 instance you create for your backend by hand. If you are deploying more dedicated servers because there 
+is an influx of traffic, the last thing you want to do is set up every one of them by hand.  
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+To deal with that we've thrown together a AWS Lambda app. [You can find it here.](https://github.com/gruegames/lambda_sns_ec2_scaling)
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Below is the README.md from the project with all the steps needed to set up and get started. 
+ 
+<div class="project-wrapper">
+    <p align="center">
+        <img src="/img/loader.gif" />
+    </p>
+</div>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+    var req_data = {"githuburl": "https://raw.githubusercontent.com/gruegames/lambda_sns_ec2_scaling/master/README.md"};
+    
+    $.ajax({
+        url: 'https://1r6a82hlr0.execute-api.us-east-1.amazonaws.com/prod/parse',
+        method: 'POST',
+        data: JSON.stringify(req_data),
+        dataType: 'json',
+        crossDomain: true,
+        headers: {
+            'X-Api-Key': 'QGTJTaLhDM8dNi11TC0vCwEIX7luKWM8NKChBrN4'
+        },
+        contentType: 'application/json',
+        success: function(data) {
+            $(".project-wrapper").html(data.value);
+        }
+    });
+});
+</script>
+
+Step 2 will be setting up and using [Terraform](https://www.terraform.io/), so you can start building with EC2 instances.
