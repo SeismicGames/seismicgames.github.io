@@ -49,3 +49,6 @@ $( document ).ready(function() {
 </script>
 
 Step 2 will be setting up and using [Terraform](https://www.terraform.io/), so you can start building with EC2 instances.
+
+**UPDATE:** A friend just told me that you can do this with [Cloudwatch Events](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/WhatIsCloudWatchEvents.html) as well. 
+I'm not familiar with them so I'll have to take a look. Thanks Brian!
