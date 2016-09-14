@@ -43,6 +43,8 @@ $( document ).ready(function() {
         contentType: 'application/json',
         success: function(data) {
             $(".project-wrapper").html(data.value);
+            $(".project-wrapper").find("pre").addClass("prettyprint");
+            prettyPrint();
         }
     });
 });
