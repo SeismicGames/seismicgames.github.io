@@ -8,13 +8,14 @@ categories: aws lambda ec2
 So, the first thing you will need to do is create an AWS account. There are plenty of tutorials on how to do that, so I won't go into that here. 
 
 Once your account is created, you are going to want to set up a couple of key things before you start:
+
 1. IAM users with credentials
 2. Custom EC2 launch image (called AMIs) 
 3. ASG scaling handler
 
 One and two are already covered on the internet as well. But for three, you are left on your own. Why do you need this? Well, if you are a (very) small game studio 
 like we are, you don't have the bandwidth to set up every EC2 instance you create for your backend by hand. If you are deploying more dedicated servers because there 
-is an influx of traffic, the last thing you want to do is set up every one of them by hand.  
+is an influx of traffic, the last thing you want to do is set up every one of them manually.  
 
 To deal with that we've thrown together a AWS Lambda app. [You can find it here.](https://github.com/gruegames/lambda_sns_ec2_scaling)
 
