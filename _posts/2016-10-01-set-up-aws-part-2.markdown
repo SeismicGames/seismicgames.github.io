@@ -42,6 +42,7 @@ Make sure to replace AD.EXAMPLE.COM and DC.AD.EXAMPLE.COM with your AD domain an
 To test, just `su - <ad_user>` and log in. You can also run `id <ad_user>` to see the id and groups of a user. 
 
 Sources:
+
 * <http://www.itadmintools.com/2011/07/creating-kerberos-keytab-files.html>
 * <http://funwithlinux.net/2014/04/join-ubuntu-14-04-to-active-directory-domain-using-realmd/>
 * <https://www.balabit.com/documents/scb-latest-guides/en/scb-guide-admin/html/proc-scenario-usermapping.html>
