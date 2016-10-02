@@ -48,5 +48,6 @@ Sources:
 * <https://www.balabit.com/documents/scb-latest-guides/en/scb-guide-admin/html/proc-scenario-usermapping.html>
 * <https://blogs.aws.amazon.com/security/post/Tx1XG3FX6VMU6O5/A-safer-way-to-distribute-AWS-credentials-to-EC2>
 * <http://serverfault.com/questions/653792/ssh-key-authentication-using-ldap>
+* <https://github.com/AndriiGrytsenko/openssh-ldap-publickey>
 
 {% include author.html %}
