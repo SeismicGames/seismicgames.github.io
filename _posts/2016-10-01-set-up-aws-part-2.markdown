@@ -18,7 +18,7 @@ revisiting it at a later date.
 Make sure to replace AD.EXAMPLE.COM and DC.AD.EXAMPLE.COM with your AD domain and domain controller information.
 
 1. Set up the sshPublicKey AD attribute, following the excellent directions [here](https://www.balabit.com/documents/scb-latest-guides/en/scb-guide-admin/html/proc-scenario-usermapping.html).
-2. Add the users you want to have sudo access to a 'devops' AD group (create if needed).
+2. Add the users you want to have sudo access to a 'devops' AD group (create if needed). Also add the users SSH public key to the new 'sshPublicKey' attribute as well.
 3. Set up a Kerberos keytab file on an existing Ubuntu instance.
 
         $ ktutil
