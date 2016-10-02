@@ -28,24 +28,6 @@ navbar-links:
 avatar: "/img/avatar-icon.png"
 
 # --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: Keith Miller
-  email: "keith@gruegames.com"
-#  facebook: yourname  # eg. daattali
-#  github: yourname    # eg. daattali
-#  twitter: yourname   # eg. daattali
-#  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-#  linkedin: yourname  # eg. daattali
-#  xing: yourname      # eg. daattali
-#  stackoverflow: yourlink  # eg. "3943160/daattali"
-#  snapchat: yourname  # eg. daattali
-#  instagram: yourname # eg. daattali
-#  youtube: yourlink   # eg. user/daattali or channel/daattali
-#  spotify: yourname   # eg. daattali
-
 # Select which links to show in the footer
 footer-links-active:
   rss: false
@@ -175,3 +157,12 @@ gems:
 
 # Exclude
 exclude: [vendor]
+
+authors:
+  keith:
+    display_name: Keith Miller
+    gravatar: b33a4459bdcd563b2fe11de7abc3f209
+    email: keith@gruegames.com
+    web: https://gruegames.github.io/
+    twitter: sgtjesussaves
+    github: SingleMalt

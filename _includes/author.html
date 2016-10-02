@@ -1,0 +1,7 @@
+{% assign author = site.authors[page.author] %}
+{% assign title = page.title %}
+<div class="meta">
+    <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40">
+    &nbsp;
+    <span class="author"><a href="mailto:{{ author.email }}?Subject={{ title }}">{{ author.display_name }}</a></span>
+</div>

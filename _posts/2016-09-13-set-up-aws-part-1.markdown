@@ -3,6 +3,7 @@ layout: post
 title:  "Setting up AWS for Game Development, Part 1"
 date:   2016-09-13 11:31:54 -0700
 categories: aws lambda ec2
+author: keith
 ---
 
 So, the first thing you will need to do is create an AWS account. There are plenty of tutorials on how to do that, so I won't go into that here. 
@@ -54,3 +55,5 @@ Step 2 will be setting up and using [Terraform](https://www.terraform.io/), so y
 
 **UPDATE:** A friend just told me that you can do this with [Cloudwatch Events](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/WhatIsCloudWatchEvents.html) as well. 
 I'm not familiar with them so I'll have to take a look. Thanks Brian!
+
+{% include author.html %}
