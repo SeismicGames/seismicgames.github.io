@@ -4,14 +4,14 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://gruegames.github.io"
+url: "https://seismicgames.github.io"
 baseurl: ""
 
 # Name of website
-title: Grue Games
+title: Seismic Games
 
 # Short description of your site
-description: Grue Games development blog
+description: Seismic Games development blog
 
 # --- Navigation bar options --- #
 
@@ -53,7 +53,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "gruegames.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "seismicgames.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
@@ -162,14 +162,14 @@ authors:
   keith:
     display_name: Keith Miller
     gravatar: b33a4459bdcd563b2fe11de7abc3f209
-    email: keith@gruegames.com
-    web: https://gruegames.github.io/
+    email: keith@seismicgames.com
+    web: https://seismicgames.github.io/
     twitter: sgtjesussaves
     github: SingleMalt
   ryan:
     display_name: Ryan Medeiros
     gravatar: d2d0a55a5d2902835f579b33104d6d40
-    email: rmedeiros@gruegames.com
-    web: https://gruegames.github.io/
+    email: ryan@seismicgames.com
+    web: https://seismicgames.github.io/
     twitter: DWishR
     github: DWishR

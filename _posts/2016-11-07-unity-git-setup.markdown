@@ -12,7 +12,7 @@ Unity project in our Gitlab and now on Github.
 * TOC
 {:toc}
 
-TLDR: [Use this to start a project.](https://github.com/gruegames/unity_starter_project)
+TLDR: [Use this to start a project.](https://github.com/SeismicGames/unity_starter_project)
 
 # Machine Setup
 
@@ -82,7 +82,7 @@ And replace it with this one:
 
 # Project Setup
 
-This is all completed in [the Github project](https://github.com/gruegames/unity_starter_project) and ready-to-go. Just
+This is all completed in [the Github project](https://github.com/SeismicGames/unity_starter_project) and ready-to-go. Just
 fork and be on your way. For the curious, it's worth ruminating on the what and why.
 
 ## Unity

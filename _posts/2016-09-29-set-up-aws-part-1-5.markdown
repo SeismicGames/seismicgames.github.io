@@ -7,7 +7,7 @@ author: keith
 ---
 
 Ok, so my friend Brian was [correct]({% post_url 2016-09-13-set-up-aws-part-1 %}), and Cloudwatch Events are the right way to handle EC2 scaling. 
- With that, here is an [updated](https://github.com/gruegames/lambda_cloudwatch_ec2_events) AWS Lambda handler for EC2 Cloudwatch Events:
+ With that, here is an [updated](https://github.com/SeismicGames/lambda_cloudwatch_ec2_events) AWS Lambda handler for EC2 Cloudwatch Events:
  
 <div class="project-wrapper">
     <p align="center">
@@ -17,7 +17,7 @@ Ok, so my friend Brian was [correct]({% post_url 2016-09-13-set-up-aws-part-1 %}
 
 <script type="text/javascript">
 $( document ).ready(function() {
-    var req_data = {"githuburl": "https://raw.githubusercontent.com/gruegames/lambda_cloudwatch_ec2_events/master/README.md"};
+    var req_data = {"githuburl": "https://raw.githubusercontent.com/SeismicGames/lambda_cloudwatch_ec2_events/master/README.md"};
     
     $.ajax({
         url: 'https://1r6a82hlr0.execute-api.us-east-1.amazonaws.com/prod/parse',

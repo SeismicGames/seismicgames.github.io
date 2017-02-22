@@ -18,7 +18,7 @@ One and two are already covered on the internet as well. But for three, you are 
 like we are, you don't have the bandwidth to set up every EC2 instance you create for your backend by hand. If you are deploying more dedicated servers because there 
 is an influx of traffic, the last thing you want to do is set up every one of them manually.  
 
-To deal with that we've thrown together a AWS Lambda app. [You can find it here.](https://github.com/gruegames/lambda_sns_ec2_scaling)
+To deal with that we've thrown together a AWS Lambda app. [You can find it here.](https://github.com/SeismicGames/lambda_sns_ec2_scaling)
 
 Below is the README.md from the project with all the steps needed to set up and get started. 
  
@@ -30,7 +30,7 @@ Below is the README.md from the project with all the steps needed to set up and 
 
 <script type="text/javascript">
 $( document ).ready(function() {
-    var req_data = {"githuburl": "https://raw.githubusercontent.com/gruegames/lambda_sns_ec2_scaling/master/README.md"};
+    var req_data = {"githuburl": "https://raw.githubusercontent.com/SeismicGames/lambda_sns_ec2_scaling/master/README.md"};
     
     $.ajax({
         url: 'https://1r6a82hlr0.execute-api.us-east-1.amazonaws.com/prod/parse',
