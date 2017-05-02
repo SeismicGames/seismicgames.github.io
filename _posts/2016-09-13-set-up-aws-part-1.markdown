@@ -20,36 +20,7 @@ is an influx of traffic, the last thing you want to do is set up every one of th
 
 To deal with that we've thrown together a AWS Lambda app. [You can find it here.](https://github.com/SeismicGames/lambda_sns_ec2_scaling)
 
-Below is the README.md from the project with all the steps needed to set up and get started. 
- 
-<div class="project-wrapper">
-    <p align="center">
-        <img src="/img/loader.gif" />
-    </p>
-</div>
-
-<script type="text/javascript">
-$( document ).ready(function() {
-    var req_data = {"githuburl": "https://raw.githubusercontent.com/SeismicGames/lambda_sns_ec2_scaling/master/README.md"};
-    
-    $.ajax({
-        url: 'https://1r6a82hlr0.execute-api.us-east-1.amazonaws.com/prod/parse',
-        method: 'POST',
-        data: JSON.stringify(req_data),
-        dataType: 'json',
-        crossDomain: true,
-        headers: {
-            'X-Api-Key': 'QGTJTaLhDM8dNi11TC0vCwEIX7luKWM8NKChBrN4'
-        },
-        contentType: 'application/json',
-        success: function(data) {
-            $(".project-wrapper").html(data.value);
-            $(".project-wrapper").find("pre").addClass("prettyprint");
-            prettyPrint();
-        }
-    });
-});
-</script>
+[Here](https://github.com/SeismicGames/lambda_sns_ec2_scaling) is the project with all the steps needed to set up and get started. 
 
 Step 2 will be setting up and using [Terraform](https://www.terraform.io/), so you can start building with EC2 instances.
 
